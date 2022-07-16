@@ -1,0 +1,25 @@
+{
+    "name": "river",
+    "displayName": "River",
+    "description": "River configuration language support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "river",
+            "aliases": ["River", "river"],
+            "extensions": [".river",".rvr"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "river",
+            "scopeName": "source.river",
+            "path": "./syntaxes/river.tmLanguage.json"
+        }]
+    }
+}
