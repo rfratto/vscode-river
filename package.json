@@ -2,7 +2,9 @@
     "name": "river",
     "displayName": "River",
     "description": "River configuration language support",
-    "version": "0.1.0-alpha.1",
+    "version": "0.1.0-alpha.2",
+    "author": "Robert Fratto",
+    "publisher": "rfratto",
     "repository": {
       "type": "git",
       "url": "https://github.com/rfratto/vscode-river"
