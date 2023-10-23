@@ -12,6 +12,7 @@
         { "include": "#literals" },
         { "include": "#comment" },
         { "include": "#string" },
+        { "include": "#raw_string" },
         { "include": "#block-header" }
       ]
     },
@@ -75,9 +76,14 @@
         },
         {
           "match": "\\\\[^0-7xuUabfnrtv'\"]",
-          "match": "invalid.illegal.river"
+          "name": "invalid.illegal.river"
         }
       ]
+    },
+    "raw_string": {
+      "begin": "`",
+      "end": "`",
+      "name": "string.quoted.backtick.river"
     },
     "block-header": {
       "match": "^\\s*([A-Za-z_][A-Za-z0-9_]*(?:\\.[A-Aa-z_][A-Za-z0-9_]*)*)([^\"=]*)(\".*\")?([^=]*)\\{",
