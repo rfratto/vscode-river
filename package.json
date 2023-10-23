@@ -2,7 +2,7 @@
     "name": "river",
     "displayName": "River",
     "description": "River configuration language support",
-    "version": "0.1.0-alpha.3",
+    "version": "0.2.0-alpha.1",
     "author": "Robert Fratto",
     "publisher": "rfratto",
     "repository": {
